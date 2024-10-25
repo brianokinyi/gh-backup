@@ -1,0 +1,1 @@
+Simple bash script to help me backup my source code that got misplaced on my old mac

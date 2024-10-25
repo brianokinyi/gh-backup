@@ -4,12 +4,11 @@
 red=`tput setaf 1`
 green=`tput setaf 2`
 reset=`tput sgr0`
-# echo "${red}red text ${green}green text${reset}"
 
 # Install gh
-# echo "[*] Installing gh"
-# $(brew install gh)
-# echo "${green}[*] Installed gh${reset} \n"
+echo "[*] Installing gh"
+$(brew install gh)
+echo "${green}[*] Installed gh${reset} \n"
 
 
 DIR=/var/www # Enter directory here
